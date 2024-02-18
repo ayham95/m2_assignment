@@ -1,0 +1,37 @@
+name: m2
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  injectable: ^2.1.2
+  get_it: 7.6.0
+  cupertino_icons: ^1.0.2
+
+  ticker_tile:
+    path: packages/features/ticker_tile
+
+  ticker_list:
+    path: packages/features/ticker_list
+
+  candy:
+    path: packages/libraries/candy
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.0.4
+  injectable_generator: ^2.1.2
+
+flutter:
+
+  uses-material-design: true

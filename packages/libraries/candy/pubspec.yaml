@@ -1,0 +1,24 @@
+name: candy
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.6.0
+  flutter_markdown: ^0.6.18+2
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
